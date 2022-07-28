@@ -1,15 +1,13 @@
-﻿# Header-菜单
+# Header-菜单
 menu:
   主页: /
-  技术笔记: https://zhousiwei.gitee.io/ibooks/
-  随笔: /tags/随笔/
+  技术笔记: https://mrretro.github.io/archives/
 
 # subNav-子导航
 subNav:
-  - github: "#"
-  - github: "#" # (支持设置多个)
-  - gitee: "#" # 码云
-  - jianshu: "#" #简书
+  - github: "https://mrretro.github.io"
+  - gitee: "https://gitee.com/MrRetro" # 码云
+  - jianshu: "https://www.jianshu.com/u/6612493b2cdf" #简书
   # - cnblog: "#"
   # - blog: "#"
   # - csdn: "#"
@@ -64,11 +62,11 @@ open_in_new:
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢你请我喝咖啡'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: /img/alipay.jpg
+alipay: ''
 # 微信二维码图片地址
-weixin: /img/weixin.png
+weixin: ''
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -90,7 +88,7 @@ google_analytics: ''
 favicon: /favicon.ico
 
 # 你的头像url
-avatar: /img/head.jpg
+avatar: https://avatars.githubusercontent.com/u/16750797?v=4
 
 # 是否开启分享
 share_jia: true
@@ -100,8 +98,8 @@ share_jia: true
 # 具体请参考wiki：https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki
 
 # 1、畅言
-changyan_appid: false
-changyan_conf: false
+changyan_appid: true
+changyan_conf: true
 
 # 2、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia-plus的
 disqus: false
@@ -157,12 +155,12 @@ clickLove:
 # GitHub Ribbons(https://github.blog/2008-12-19-github-ribbons/)
 github:
   # (关闭请设置为false)
-  url: https://github.com/JoeyBling/hexo-theme-yilia-plus
+  url: https://github.com/MrRetro
 
 # 页脚 Litten(此配置项已弃用)
 # 帮助我们让更多人可以更方便使用Hexo，请尽量不要修改此主题配置
 pageFooter:
-  litten: GitHub:<a href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank">hexo-theme-yilia-plus</a>
+  litten: GitHub:<a href="https://github.com/MrRetro" target="_blank">MrRetro</a>
 
 # 开启百度站长平台自动推送(https://ziyuan.baidu.com/linksubmit/index)
 baidu_push: false
@@ -171,7 +169,7 @@ baidu_push: false
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
 copyright_type: 2
 # 版权声明自定义文本(关闭请设置为false)
-copyright_text: 
+copyright_text:
 
 # 网站成立年份(默认为 2018，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
 since: 2018
@@ -193,8 +191,8 @@ apple_touch_icon: '/apple-touch-icon-180x180.png'
 # Tab Title Change | 标签页标题切换
 tab_title_change:
   enable: true
-  left_tab_title: '(つェ⊂) 我藏好了哦~ '
-  return_tab_title: '(*´∇｀*) 被你发现啦~ '
+  left_tab_title: '嗨，我藏好了哦~ '
+  return_tab_title: '你真棒，被你发现啦~ '
 
 # https://github.com/willin/hexo-wordcount
 # 是否开启字数统计(关闭请设置enable为false)
@@ -211,7 +209,7 @@ activate_power_mode:
   # 使输入模式丰富多彩
   colorful: true
   # 是否开启摇动
-  shake: false
+  shake: true
 
 # 飘雪特效
 # https://github.com/MlgmXyysd/snow.js
@@ -268,19 +266,19 @@ smart_menu:
 friends:
   技术笔记:  #网站名称
     #网站地址
-    url: https://zhousiwei.gitee.io/ibooks/
+    url: https://mrretro.github.io/archives/
     #网站图片(可忽略不写)
-    img: https://zhousiwei.gitee.io/ibooks/favicon.ico
+    img: https://avatars.githubusercontent.com/u/16750797?v=4
     #网站简介(可忽略不写)
-    description: 记录工作和学习过程中的笔记：Java、前端开发、Hexo博客、聚合支付、Linux笔记、ElasticSearch、ELK日志分析
+    description: 记录工作和学习过程中的笔记：前端开发、Hexo博客、开源爱好者
   GitHub:
-    url: https://github.com/JoeyBling
+    url: https://github.com/MrRetro
   码云:
-    url: https://gitee.com/zhousiwei
+    url: https://gitee.com/MrRetro
   简书:
-    url: https://www.jianshu.com/u/02cbf31a043a
+    url: https://www.jianshu.com/u/6612493b2cdf
   CSDN:
-    url: https://blog.csdn.net/qq_30930805
+    url: https://blog.csdn.net
 
 # 关于我
-aboutme: 主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:2434387555<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 主要涉及技术：<br>前端开发<br>公众号开发、开源爱好者<br><br>联系QQ:395336343<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
